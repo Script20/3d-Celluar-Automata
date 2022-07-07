@@ -1,0 +1,12 @@
+[package]
+name = "celluar_automata"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = {git = "https://github.com/bevyengine/bevy.git", rev = "b697e73"}
+bevy_egui = { path = "deps/bevy_egui-0.12.1" }
+bevy_fly_camera = "0.8.0"
+bytemuck = "*"
+rand = "*"
+futures-lite = "1.12.0"
